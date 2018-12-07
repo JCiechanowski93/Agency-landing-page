@@ -1,0 +1,18 @@
+$main-color: #bc2e3a;
+$banner-color: #65191f;
+$black-color: #171717;
+$grey-color: #494949;
+$grey-color-second: #636363;
+
+@font-face {
+    font-family:"Lemon/Milk";
+    src:url("../fonts/LemonMilk.eot") format("eot"),
+    url("../fonts/LemonMilk.svg#LemonMilk") format("svg");
+    font-weight:normal;
+    font-style:normal;
+  }
+
+$font-lemon: "Lemon/Milk", sans-serif;
+$font-lato: 'Lato', sans-serif;
+$font-open-sans: 'Open Sans', sans-serif;
+

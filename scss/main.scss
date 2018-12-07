@@ -1,0 +1,80 @@
+@import 'variables.scss';
+@import 'normalize.scss';
+@import 'header.scss';
+@import 'banner.scss';
+@import 'about-us.scss';
+@import 'agency-work.scss';
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.button {
+    width: 195px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $font-lato;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+.main__background {
+    background-image: url(../images/Banner_main.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: $main-color;
+}
+
+.section__title {
+    font-family: $font-lato;
+    font-size: 60px;
+    font-weight: 900;
+    color: $grey-color;
+  }
+
+
+
+
+.agency-workflow {
+
+}
+.agency-workflow__title {
+
+}
+
+.agency-workflow__content {
+
+    }
+
+.agency-workflow__button {
+
+    }
+    
+.agency-workflow__images {
+
+    }
+
+.agency-workflow__image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    transform: skew(-8deg);
+  -webkit-transform: skew(-8deg);
+  -moz-transform: skew(-8deg);
+    
+    img {
+  position: absolute;
+  top: 50%;
+  transform: skew(8deg) translateY(-50%);
+  -webkit-transform: skew(8deg) translateY(-50%);
+  -moz-transform: skew(8deg) translateY(-50%);
+    
+    }
+}
