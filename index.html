@@ -159,23 +159,35 @@
             Our creative team
         </h2>
         <div class="agency-team__content">
-            <button class="agency-team__arrow-left"></button>
-            <div class="agency-team__member">
-                <div class="agency-team__photo"><img src="./images/photographer.jpg" alt="photographer"></div>
-                <div class="agency-team__name">John Doe</div>
-                <div class="agency-team__job-title">Photographer</div>
+            <button class="agency-team__arrow arrow-left">
+                <</button> <div class="agency-team__member">
+                    <div class="agency-team__photo"><img src="./images/photographer.jpg" alt="photographer"></div>
+                    <div class="agency-team__name">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="agency-team__job-title">
+                        <p>Photographer</p>
+                    </div>
+        </div>
+        <div class="agency-team__member">
+            <div class="agency-team__photo"><img src="./images/designer.jpg" alt="designer"></div>
+            <div class="agency-team__name">
+                <p>Jimmy Doe</p>
             </div>
-            <div class="agency-team__member">
-                <div class="agency-team__photo"><img src="./images/designer.jpg" alt="designer"></div>
-                <div class="agency-team__name">Jimmy Doe</div>
-                <div class="agency-team__job-title">Designer</div>
+            <div class="agency-team__job-title">
+                <p>Designer</p>
             </div>
-            <div class="agency-team__member">
-                <div class="agency-team__photo"><img src="./images/human-resources.jpg" alt="human-resources"></div>
-                <div class="agency-team__name">Sara Doe</div>
-                <div class="agency-team__job-title">Human Resources</div>
+        </div>
+        <div class="agency-team__member">
+            <div class="agency-team__photo"><img src="./images/human-resources.jpg" alt="human-resources"></div>
+            <div class="agency-team__name">
+                <p>Sara Doe</p>
             </div>
-            <button class="agency-team__arrow-right"></button>
+            <div class="agency-team__job-title">
+                <p>Human Resources</p>
+            </div>
+        </div>
+        <button class="agency-team__arrow arrow-right">></button>
         </div>
     </section>
     <section class="agency-clients">
@@ -184,19 +196,27 @@
         </h2>
         <div class="agency-clients__content">
             <div class="agency-clients__main-photo">
-
+                <img src="./images/client-photo.jpg" alt="client photo">
             </div>
             <div class="agency-clients__quote">
-                <span>icon</span>
+                <span><i class="fas fa-quote-left"></i></span>
                 <p class="agency-clients__opinion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet alias
-                    a, voluptate reiciendis vero deleniti.</p>
+                    a, voluptate reiciendis vero deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Repellendus, odit.</p>
                 <div class="agency-clients__name">Jimmy Snow, Company CEO</div>
             </div>
         </div>
         <div class="agency-clients__other-opinions">
-            <div class="agency-clients__photo"></div>
-            <div class="agency-clients__photo"></div>
-            <div class="agency-clients__photo"></div>
+            <div class="agency-clients__photo" data-quote="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                data-name="Arianna Grande, Singer"><img src="./images/photographer.jpg" alt="client-photo"></div>
+            <div class="agency-clients__photo" data-quote="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                data-name="John Snow, Actor"><img src="./images/designer.jpg" alt="client-photo"></div>
+            <div class="agency-clients__photo" data-quote="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                data-name="Maria Konopnicka, Chemist"><img src="./images/human-resources.jpg" alt="client-photo"></div>
+            <div class="agency-clients__photo" data-quote="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet alias
+            a, voluptate reiciendis vero deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellendus, odit."
+                data-name="Jimmy Snow, Company CEO"><img src="./images/client-photo.jpg" alt="client-photo"></div>
         </div>
     </section>
     <footer>
