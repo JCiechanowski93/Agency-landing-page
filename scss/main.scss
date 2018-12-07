@@ -42,39 +42,68 @@
 
 
 .agency-workflow {
-
+    height: 600px;
 }
 .agency-workflow__title {
-
+    margin: 100px 0 40px 200px;
 }
 
 .agency-workflow__content {
-
+    display: flex;
+    justify-content: space-between;
     }
 
-.agency-workflow__button {
+.agency-workflow__description {
+    font-family: $font-lato;
 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+        color: $grey-color-second;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
+}
+
+.agency-workflow__button {
+    background-color: $main-color;
+    color: #fff;
+    &:hover {
+      background-color: $grey-color-second;
+      color: $black-color;
+      box-shadow: inset 0 0 0 3px $black-color;
+      transition: all 1s ease;
+      }
     }
     
 .agency-workflow__images {
-
-    }
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
 
 .agency-workflow__image {
-    height: 300px;
+    height: 250px;
     width: 300px;
     position: relative;
     overflow: hidden;
     transform: skew(-8deg);
-  -webkit-transform: skew(-8deg);
-  -moz-transform: skew(-8deg);
+    -webkit-transform: skew(-8deg);
+    -moz-transform: skew(-8deg);
+    margin-right: 10px;
+
     
+
     img {
-  position: absolute;
-  top: 50%;
-  transform: skew(8deg) translateY(-50%);
-  -webkit-transform: skew(8deg) translateY(-50%);
-  -moz-transform: skew(8deg) translateY(-50%);
-    
+     position: absolute;
+     top: 50%;
+     transform: skew(8deg) translateY(-50%);
+     -webkit-transform: skew(8deg) translateY(-50%);
+     -moz-transform: skew(8deg) translateY(-50%); 
+     display: block;  
     }
 }
