@@ -42,20 +42,28 @@
 }
 
 .contact__background {
-
+    background-image: url("../images/footer-people.jpg");
+    background-size: cover;
+    height: 400px;
   }
 
 .contact__title {
-
+    color: $grey-color-second;
+    align-content: center;
 }
 
 .section__title {
 
 }
 
-.contact__content {}
+.contact__content {
+    display: flex;
+    
+}
 
-.contact__details {}
+.contact__details {
+    color: #fff;
+}
 
 .contact__icon {}
 
