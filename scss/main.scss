@@ -49,26 +49,34 @@
 
 .contact__title {
     color: $grey-color-second;
-    align-content: center;
+    
+
 }
 
 .section__title {
-
+    text-align: center;
 }
 
 .contact__content {
     display: flex;
+    justify-content: space-around;
     
 }
 
 .contact__details {
     color: #fff;
+
+
 }
 
 .contact__icon {}
 
 .contact__social-media {}
 
-.contact__line {}
+.contact__line {
+    border: 0.8px solid #fff;
+}
 
-.contant__copyright {}
+.contant__copyright {
+    color: #fff;
+}
