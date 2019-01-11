@@ -48,7 +48,6 @@
 .contact__title {
     color: $grey-color-second;
     padding: 95px 0 80px 0;
-
 }
 
 .section__title {
@@ -67,6 +66,11 @@
 
     h5 {
         font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+
+    img {
+        padding: 10px 15px 0 0;
     }
 }
 
@@ -74,7 +78,7 @@
 
 .contact__social-media {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     text-align: center;
 
@@ -94,5 +98,6 @@
 .contant__copyright {
     padding: 30px 0 30px 0;
     color: #fff;
+    text-align: center;
 
 }
