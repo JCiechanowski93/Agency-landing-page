@@ -55,3 +55,12 @@ section.about-us {
       transition: all 1s ease;
       }
 }
+
+@media (max-width: 1150px) {
+  section.about-us {
+
+    &:before {
+      display: none;
+    }
+  }
+}
