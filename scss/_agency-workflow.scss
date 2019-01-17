@@ -31,6 +31,7 @@
     background-color: $main-color;
     color: #fff;
     align-self: center;
+    margin: 15px 0 0 0;
 
     &:hover {
       background-color: $grey-color-second;
@@ -53,6 +54,7 @@
     transform: skew(-8deg);
     -webkit-transform: skew(-8deg);
     -moz-transform: skew(-8deg);
+    margin: 15px 15px 0 0;
     
 
     img {
