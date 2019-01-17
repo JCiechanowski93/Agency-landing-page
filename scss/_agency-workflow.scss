@@ -2,7 +2,7 @@
     
 }
 .agency-workflow__title {
-    
+    padding: 40px 0 40px 0; 
 }
 
 .agency-workflow__content {
@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 30px;
 
     p {
         color: $grey-color-second;
@@ -29,6 +30,8 @@
 .agency-workflow__button {
     background-color: $main-color;
     color: #fff;
+    align-self: center;
+
     &:hover {
       background-color: $grey-color-second;
       color: $black-color;
@@ -50,7 +53,7 @@
     transform: skew(-8deg);
     -webkit-transform: skew(-8deg);
     -moz-transform: skew(-8deg);
-    margin-right: 10px;
+    
 
     img {
      position: absolute;
@@ -59,5 +62,18 @@
      -webkit-transform: skew(8deg) translateY(-50%);
      -moz-transform: skew(8deg) translateY(-50%); 
      display: block;  
+    }
+}
+
+@media (max-width: 1150px) {
+    .agency-workflow__content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .agency-workflow__images {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
