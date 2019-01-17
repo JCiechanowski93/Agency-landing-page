@@ -66,10 +66,7 @@
 }
 
 
-
-
 .main-photo {
-
     .agency-team__photo {
         width: 300px;
         height: 300px;
@@ -98,3 +95,8 @@
 
 }
 
+@media (max-width: 1150px) {
+    .agency-team__content {
+        flex-wrap: wrap;
+    }
+}
